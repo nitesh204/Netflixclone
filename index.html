@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Netflix </title>
+    
+    <style>
+        /* styles.css */
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #000;
+    padding: 1rem;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+
+.hero {
+    background-image: url('https://static.moviecrow.com/gallery/20210822/188645-1500x500.jfif');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5rem 0;
+    height: 500px;
+} 
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 1rem;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 500px;
+    font-size: 1.2rem;
+}
+
+/* Movie section styles */
+.movies {
+    padding: 2rem 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.movie-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.movie {
+    flex: 1;
+    margin: 1rem;
+}
+
+.movie img {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
+    </style>
+</head>
+<body>
+   
+    <nav class="navbar">
+        <img src="https://th.bing.com/th/id/R.4d30a09d38e6dfe3feaa31920a680108?rik=GnWkgmKvj5nwNg&riu=http%3a%2f%2fwww.cultjer.com%2fimg%2fug_photo%2f2016_09%2f76248820160921034356.jpg&ehk=grD%2fdqb%2b43FMvO3KHmAdPwgUvOikuZkwrJQwMPdCHUM%3d&risl=&pid=ImgRaw&r=0" alt="Netflix Logo" class="logo">
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1></h1>
+            <p></p>
+        
+            <a href="" class="btn">Sign In</a>
+        </div>
+    </header>
+   
+    <section class="movies">
+        <h2>Popular Movies</h2>
+        <div class="movie-list">
+            
+            <div class="movie">
+                <img src="https://m.media-amazon.com/images/M/MV5BZGEzMDJjNGUtYTFhZi00MDgyLWIzMzYtMzcwMDQyZjcyNGY1XkEyXkFqcGdeQXVyNTcwNTM5ODI@._V1_.jpg" alt="Movie 1">
+            </div>
+
+       
+            <div class="movie">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202309/shah-rukh-khan--jawan--srk-films-295651-1x1.jpg?VersionId=flG135APjYu35mqHqhjNACK3.P335ZY8" alt="Movie 2">
+            </div>
+
+           
+            <div class="movie">
+                <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202305/Rocky_Aur_Rani_Ki_Prem_Kahani_1684994434.jpg" alt="Movie 3">
+            </div>
+            <div class="movie">
+                <img src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbb8G7Xr4c4Qfy5HBR4rXK1eswvyJJ2DLo4cIXzmL5nQ0lEh_6nWWCEotsLuinh-cZSq2IziwIi6XBmyXh2uXqs6VGQGmqISQKg.jpg?r=bcb" alt="Movie 2">
+            </div>
+            <div class="movie">
+                <img src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbK0SZnHO1LHY1iX01eKJr5vCSdtehAalWllMrN8wx_GZ0sH75cMZ1Zvd6cRT6o2TWoKBDLvkPLUqWMyvC6Ws8h9iy1rikcUpYo.jpg?r=8db" alt="Movie 2">
+            </div>
+            <div class="movie">
+                <img src="https://occ-0-2186-2164.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTOTWVSWBjo8AIVFKhqn6zlKDITaHqkTl6qGqSwLZN3dldnXfEe3WyKvUGd51OCeK11cC3pbJGHrX1mmPMFT-tk3oeUFnNCeFzQ.jpg?r=c7b" alt="Movie 2">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; My Netflix Clone</p>
+    </footer>
+</body>
+</html>
